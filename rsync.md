@@ -25,3 +25,5 @@ rsync是一种快速，多用途，可进行远程（本地）文件拷贝的工
 
 4：[Rsync服务器的安装与配置详解](https://www.linuxidc.com/Linux/2017-01/139888.htm)
 
+[5：Linux下rsync远程数据同步命令的详细介绍](http://www.jb51.net/article/106241.htm)
+
