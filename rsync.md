@@ -15,6 +15,8 @@ rsync是一种快速，多用途，可进行远程（本地）文件拷贝的工
 
 ## rsync的参考文章
 
+[-1：通过 rsync sersync 实现高效的数据实时同步架构](https://blog.csdn.net/punk_lover/article/details/76854138)
+
 0：[inotify+rsync实现实时同步](http://www.cnblogs.com/clsn/p/8022625.html)
 
 1：[第2章 rsync\(一\)：基本命令和用法](http://www.cnblogs.com/f-ck-need-u/p/7220009.html)
