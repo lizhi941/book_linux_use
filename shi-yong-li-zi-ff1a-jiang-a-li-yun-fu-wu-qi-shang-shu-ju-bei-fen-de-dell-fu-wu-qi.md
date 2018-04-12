@@ -59,5 +59,19 @@ chmod 600 /home/hadoop/rsyncd.passwd
 rsync -avz --progress --password-file=/home/hadoop/rsyncd.passwd hadoop@192.168.1.98::auth_data /home/hadoop/auth_data
 ```
 
+可以写一个简单的shell脚本让其自动不断同步，当然更好的方式还是采用其它软件配合rsync来使用。
+
+```
+#!/bin/bash
+while :
+    do  
+    rsync -avz --progress --password-file=/home/hadoop/rsyncd.passwd hadoop@192.168.1.98::auth_data \
+     /home/hadoop/auth_data
+    sleep 1s #暂停1s  
+done  
+```
+
+
+
 
 
